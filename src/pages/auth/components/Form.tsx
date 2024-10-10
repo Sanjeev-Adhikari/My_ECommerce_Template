@@ -25,7 +25,7 @@ const Form:React.FC<Props> = ({type}) => {
            </select>
 
            <label htmlFor="dob" className="text-gray-800">Date Of Birth</label>
-           <input type="date"  className="w-full mb-4 p-3 *:border-2 rounded-md dark:text-gray-200 dark:border-gray-600 dark:bg-gray-800" />
+           <input type="date"  className="w-full mb-4 p-3 border-2 rounded-md dark:text-gray-200 dark:border-gray-600 dark:bg-gray-800" />
             
             </>
           )
