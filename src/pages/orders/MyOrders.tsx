@@ -3,9 +3,9 @@
 const MyOrders = () => {
   return (
     <>
-    <section className="px-4 sm:px-8 py-4 overflow-x-auto h-[100vh] w-full flex items-center justify-center ">
+    <section className="px-4 sm:px-8 py-4 h-[100vh] w-full flex items-center justify-center ">
      
-        <main data-aos="zoom-out" className=" min-w-full  rounded-lg overflow-hidden ">
+        <main data-aos="zoom-out" className="overflow-x-auto  min-w-full  rounded-lg overflow-hidden ">
         <h1 >My Orders</h1>
             <table   className="min-w-full shadow leading-normal">
                 <thead>

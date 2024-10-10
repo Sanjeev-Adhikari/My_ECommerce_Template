@@ -16,7 +16,6 @@ const Cart = () => {
         <main className="mx-auto max-w-5xl justify-center px-6 md:flex md:space-x-6   xl:px-0">
           {/* cart items container */}
           <div className=" rounded-lg md:w-2/3 ">
-         
               {/* individual cart item  */}
                 <article data-aos = "fade-right" className="justify-between mb-6 rounded-lg bg-white p-6 md:mx-0 mx-10 shadow-md sm:flex sm:justify-start">
                   {/* product image */}
@@ -48,7 +47,7 @@ const Cart = () => {
                     </div>
                   </div>
                 </article>
-                </div>
+          </div>
                 {/* summary conatiner */}
                 <aside data-aos = "fade-left" className="mt-6 h-full md:mx-0 mx-10 rounded-lg border bg-white p-6 shadow-md md:mt-0 md:w-1/3">
                   {/* total items in cart */}
@@ -78,10 +77,7 @@ const Cart = () => {
                     <button className="mt-6 w-full rounded-md bg-blue-500 py-1.5 font-medium text-blue-50 hover:bg-blue-600">Checkout</button>
                   </Link>
                 </aside>
-               
-        
-        </main>
-        
+        </main>  
     </section>
     </>
   )
